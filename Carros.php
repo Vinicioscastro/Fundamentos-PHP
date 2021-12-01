@@ -15,11 +15,13 @@ foreach($hilux as $unidade){
 $carros = array ($hilux, $land, $chevrolet);
 echo "<hr>";
 
-foreach($hilux as $unidade){
-    echo "$unidade";
-    echo "<br>";
-}
-echo "<br>";
-
 print_r($carros);
+echo "<hr>";
+
+$hilux[] = "batida";
+print_r($hilux);
+print_r($carros);
+echo "<hr>";
+
+$pessoa
 ?>

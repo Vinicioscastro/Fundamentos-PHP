@@ -70,6 +70,21 @@ echo "<hr>";
 foreach($times as $unidade){
     echo $unidade."<br>";
 }
+echo "<hr>";
+
+$pessoa = array("nome"=> "rodrigo", "idade"=>21);
+echo $pessoa["nome"];
+$pessoa["cidade"] = " Caxias";
+
+echo "<br>";
+
+foreach($pessoa as $indice => $valor){
+    echo $indice." : ".$valor; 
+    echo "<br>";
+}
+
+echo "<hr>";
+
 
     ?>
 </body>
