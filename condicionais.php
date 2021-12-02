@@ -1,6 +1,7 @@
 <?php
 
 $valor = 16;
+$nota = 8;
 
 if($valor%2==0){
     echo ("Par");
@@ -13,5 +14,7 @@ if($valor%2==0){
 }else {
     echo ("Impa");
 }
+echo "<br>";
+echo ($nota >= 7)? "Aprovado" : "Reprovado";
 
 ?>
