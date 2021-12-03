@@ -1,7 +1,9 @@
 <?php
-
-$valor = 16;
+echo "<hr>";
+echo "<hr>";
+$valor = 6;
 $nota = 8;
+$nome = "Emanuela";
 
 if($valor%2==0){
     echo ("Par");
@@ -14,7 +16,15 @@ if($valor%2==0){
 }else {
     echo ("Impa");
 }
-echo "<br>";
+echo "<hr>";
 echo ($nota >= 7)? "Aprovado" : "Reprovado";
+echo "<hr>";
+echo "<hr>";
 
+$cartao = 631+15+11+100;
+$casa = 18+200+51+50;
+echo ("Dividas da casa: $casa <br>");
+echo ("Cartão esse mês $cartao reais <br>" );
+//echo $cartao - 170;
+echo ("meu nome é  $nome");
 ?>
