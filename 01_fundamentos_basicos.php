@@ -38,7 +38,7 @@ class Pessoa{
 
 $eu = new Pessoa();
 
-$eu->adicionar('vinicios');
+$eu->adicionar('vinicios 123');
 echo "<br>";
 echo $eu->nome2;
 

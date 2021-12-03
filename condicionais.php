@@ -27,4 +27,26 @@ echo ("Dividas da casa: $casa <br>");
 echo ("Cartão esse mês $cartao reais <br>" );
 //echo $cartao - 170;
 echo ("meu nome é  $nome");
+echo "<br>";
+class Pessoa{
+  public  $nome;
+  public  $idade;
+  
+  public function adicionar ($nome, $idade){
+      $this->nome = $nome;
+      $this->idade = $idade;
+  }
+  
+}
+
+$eu = new Pessoa();
+$eu->adicionar ("vinicios ", 5);
+echo $eu->nome, $eu->idade;
+echo "<br>";
+print_r ($eu);
+echo "<br>";
+
+$outro = new Pessoa();
+$outro->adicionar("Krauhdyl", 50);
+print_r ($outro);
 ?>
