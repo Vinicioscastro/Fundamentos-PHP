@@ -70,4 +70,16 @@ switch($opcao):
     break;
     endswitch;
 
+echo "<br>";
+echo "<hr>";    
+
+$nome = "vinicios";
+$idade = 22;
+
+if (!($nome == "vinicios") xor ($idade == 22)):
+    echo("Tudo Certinho");
+else:
+    echo("Tudo Errado");
+endif;
+
 ?>
