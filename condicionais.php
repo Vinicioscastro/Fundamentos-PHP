@@ -49,4 +49,25 @@ echo "<br>";
 $outro = new Pessoa();
 $outro->adicionar("Krauhdyl", 50);
 print_r ($outro);
+
+echo "<br>";
+echo "<hr>";
+
+$opcao = 45;
+
+switch($opcao):
+    case 5:
+        echo("numero 5");
+        break;
+    case 2:
+        echo("numero 2");
+        break;
+    case 3:
+        echo("numero 3");
+        break;
+    default:
+    echo ("Nenhum das anteriores");
+    break;
+    endswitch;
+
 ?>
