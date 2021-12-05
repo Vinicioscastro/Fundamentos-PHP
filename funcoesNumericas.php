@@ -23,5 +23,7 @@ $sorteio = array(rand(1,10));
 echo rand(1, 10); // gera um numero aleatorio entre 1 e 10;
 echo("<br>");
 print_r ($sorteio);
+echo("<br>");
+echo ("O numero sutedo entre 0 - 100 foi o: ".rand(0, 100));
 
 ?>
