@@ -25,5 +25,6 @@ echo("<br>");
 print_r ($sorteio);
 echo("<br>");
 echo ("O numero sutedo entre 0 - 100 foi o: ".rand(0, 100));
-
+echo("<br>");
+echo ("O numero sutedo entre 0 - 100 foi o: ".rand(0, 1000));
 ?>
